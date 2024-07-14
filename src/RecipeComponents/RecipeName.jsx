@@ -1,11 +1,19 @@
-import omelette from "../assets/images/image-omelette.jpeg";
+/* eslint-disable react/prop-types */
 
-function RecipeName() {
+function RecipeName(props) {
   return (
     <>
-      <img src={omelette} alt="Image" className="rounded-2xl mb-5" />
-      <h1 className="text-black">Simple Omellete Recipe</h1>
-      <p className="text-black">
+      <div className="flex flex-row justify-center items-center w-full ">
+        <img
+          src={props.recipeName.strMealThumb}
+          alt="Image"
+          className="rounded-2xl mb-5 h-auto w-3/5"
+        />
+      </div>
+      <h1 className="text-black font-yserif text-5xl my-8">
+        {props.recipeName.strMeal}
+      </h1>
+      <p className="text-black font-outfit text-WengeBrown font-normal">
         An easy and quick dish, perfect for any meal. This classic omelette
         combines beaten eggs cooked to perfection, optionally filled with your
         choice of chees, vegetables or meates

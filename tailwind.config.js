@@ -13,6 +13,10 @@ export default {
         DarkCharcoal: "hsl(24, 5%, 18%)",
         Creame: "#f3e2d8",
       },
+      fontFamily: {
+        yserif: ["Young Serif", "serif"],
+        outfit: ["Outfit", "sans-serif"],
+      },
     },
   },
   plugins: [],
