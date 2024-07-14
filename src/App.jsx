@@ -8,7 +8,7 @@ import Recipe from "./Recipe";
 
 function App() {
   return (
-    <div className="bg-Creame flex flex-row justify-center items-center pt-5 pb-5 w-4/4 ">
+    <div className="bg-Creame flex flex-row justify-center items-center pt-5 pb-5 w-4/4 h-screen  ">
       <Recipe></Recipe>
     </div>
   );
